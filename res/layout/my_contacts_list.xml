@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TextView
+        android:id="@+id/my_name" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:id="@+id/my_textviev1" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_toRightOf="@id/my_name"
+        android:text="(" />
+    <TextView
+        android:id="@+id/my_neck_name" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_toRightOf="@id/my_textviev1" />
+    <TextView
+        android:id="@+id/my_textviev2" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_toRightOf="@id/my_neck_name"
+        android:text=")" />
+    <TextView
+        android:id="@+id/my_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/my_name"
+        android:textSize="18dp"
+        android:layout_alignParentLeft="true" />"
+    <CheckBox
+        android:id="@+id/my_check"
+    	android:layout_width="wrap_content" 
+      	android:layout_height="wrap_content"
+      	android:layout_alignParentRight="true"
+      	android:checked="false" 
+      	android:focusable="false"
+      	android:focusableInTouchMode="false"
+      	android:clickable="false" />
+
+</RelativeLayout>
