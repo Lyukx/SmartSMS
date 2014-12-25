@@ -16,7 +16,7 @@
                 android:id="@+id/left_msg"
                 android:layout_gravity="center"
                 android:layout_margin="10dp"
-                android:textSize="20dp"
+                android:textSize="15dp"
                 android:lineSpacingMultiplier="1.2"
                 android:text="This is sample output of left message to show the size"/>
 
@@ -33,7 +33,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/right_msg"
                 android:layout_gravity="center"
-                android:textSize="20dp"
+                android:textSize="15dp"
                 android:lineSpacingMultiplier="1.2"
                 android:layout_margin="10dp"/>
 

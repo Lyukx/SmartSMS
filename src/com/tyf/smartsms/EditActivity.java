@@ -14,6 +14,7 @@ import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.util.Log;
 import android.view.View;
+import android.view.Window;
 import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.EditText;
@@ -34,6 +35,7 @@ public class EditActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.activity_edit);
         initContacts(/*db*/);
         adapter = new EditAdapter(EditActivity.this, R.layout.edit_contacts_list, editContactsList);
@@ -46,14 +48,14 @@ public class EditActivity extends Activity {
 				temp = editContactsList.get(position);
 				tempNumber = temp.getNumber();
 				AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(EditActivity.this);
-				dialogBuilder.setTitle("neckname");
+				dialogBuilder.setTitle("Set Nickname");
 				dialogBuilder.setIcon(android.R.drawable.ic_dialog_info);
 				//EditText editText = new EditText(EditActivity.this);
 				editText = new EditText(EditActivity.this);
 				editText.setText(temp.getNeckName());
 				dialogBuilder.setView(editText);
-				dialogBuilder.setNegativeButton("取消", null);
-				dialogBuilder.setPositiveButton("确定", new OnClickListener(){
+				dialogBuilder.setNegativeButton("OK", null);
+				dialogBuilder.setPositiveButton("Cancel", new OnClickListener(){
 					@Override
 					public void onClick(DialogInterface dialog, int which) {
 						// TODO Auto-generated method stub

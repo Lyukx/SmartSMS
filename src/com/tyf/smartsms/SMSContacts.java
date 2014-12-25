@@ -13,6 +13,7 @@ import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
@@ -34,6 +35,7 @@ public class SMSContacts extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.smscontacts);
 		initContacts();
         adapter = new ContactsAdapter(SMSContacts.this,R.layout.my_contacts_list,myContactsList);
@@ -101,9 +103,9 @@ public class SMSContacts extends Activity {
                 }
                 else{
                 	//ContentValues values = new ContentValues();
-                	temp = new MyContacts(displayName, number, "нч");
+                	temp = new MyContacts(displayName, number, "О©╫О©╫");
                 }    
-                //MyContacts temp = new MyContacts(displayName, number, "нч");
+                //MyContacts temp = new MyContacts(displayName, number, "О©╫О©╫");
                 myContactsList.add(temp);
             }
             choose = new boolean[myContactsList.size()];

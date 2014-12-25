@@ -14,6 +14,9 @@
         android:background="#fff"
         android:layout_alignParentLeft="true" android:layout_marginLeft="0dp"
         android:layout_alignParentTop="true" android:layout_marginTop="0dp">
+        <com.tyf.smartsms.TitleLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

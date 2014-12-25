@@ -19,6 +19,7 @@ import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.telephony.SmsManager;
 import android.view.View;
+import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
@@ -45,6 +46,7 @@ public class ShowSMS extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.show_sms);
         Intent intent = getIntent();
         name = intent.getStringExtra("personName");
@@ -174,7 +176,7 @@ public class ShowSMS extends Activity {
                         newStr += (name + ":\n");
                         break;
                     case 2:
-                        newStr += "ÎÒ:\n";
+                        newStr += "ï¿½ï¿½:\n";
                         break;
                     default:
                         break;
