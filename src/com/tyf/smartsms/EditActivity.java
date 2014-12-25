@@ -54,8 +54,8 @@ public class EditActivity extends Activity {
 				editText = new EditText(EditActivity.this);
 				editText.setText(temp.getNeckName());
 				dialogBuilder.setView(editText);
-				dialogBuilder.setNegativeButton("OK", null);
-				dialogBuilder.setPositiveButton("Cancel", new OnClickListener(){
+				dialogBuilder.setNegativeButton("Cancel", null);
+				dialogBuilder.setPositiveButton("OK", new OnClickListener(){
 					@Override
 					public void onClick(DialogInterface dialog, int which) {
 						// TODO Auto-generated method stub

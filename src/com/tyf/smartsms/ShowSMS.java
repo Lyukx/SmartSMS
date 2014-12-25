@@ -111,7 +111,6 @@ public class ShowSMS extends Activity {
             public void onClick(View view) {
                 AlertDialog.Builder dialog = new AlertDialog.Builder(ShowSMS.this);
                 dialog.setTitle("Select the number send to");
-                //dialog.setMessage("ss");
                 dialog.setCancelable(true);
                 dialog.setItems(numbers, new DialogInterface.OnClickListener() {
                     @Override
