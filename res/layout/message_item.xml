@@ -52,6 +52,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/right_layout"
             android:layout_gravity="right"
+            android:layout_weight="1"
             android:background="@drawable/rightmsg">
         <TextView
                 android:layout_width="wrap_content"
@@ -59,7 +60,7 @@
                 android:id="@+id/right_msg"
                 android:layout_gravity="center"
                 android:textSize="15dp"
-                android:text="Get it, thank you"
+                android:text="Get it"
                 android:lineSpacingMultiplier="1.2"
                 android:layout_margin="10dp"/>
 
