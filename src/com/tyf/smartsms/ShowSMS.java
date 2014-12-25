@@ -153,7 +153,6 @@ public class ShowSMS extends Activity {
             int indexBody = cursor.getColumnIndex("body");
             int indexDate = cursor.getColumnIndex("date");
             int indexType = cursor.getColumnIndex("type");
-            int indexRead = cursor.getColumnIndex("read");
             int indexStatus = cursor.getColumnIndex("status");
             int indexId = cursor.getColumnIndex("_id");
 
@@ -167,40 +166,10 @@ public class ShowSMS extends Activity {
 
                 int type = cursor.getInt(indexType);
                 int status = cursor.getInt(indexStatus);
-                int read = cursor.getInt(indexRead);
+
                 int _id = cursor.getInt(indexId);
 
-                String newStr = "";
-                switch(type){
-                    case 1:
-                        newStr += (name + ":\n");
-                        break;
-                    case 2:
-                        newStr += "��:\n";
-                        break;
-                    default:
-                        break;
-                }
-                newStr += (strBody + "\n" + strDate + " ");
-                switch(status){
-                    case -1:
-                        newStr += "Received";
-                        break;
-                    case 0:
-                        newStr += "Complete";
-                        break;
-                    case 64:
-                        newStr += "Pending";
-                        break;
-                    case 128:
-                        newStr += "Failed";
-                        break;
-                    default:
-                        break;
-                }
-                newStr += " " + read;
 
-                //smsList.add(newStr);
                 Message newMsg = new Message( (type==1), strBody);
                 newMsg.setId(_id);
                 msgList.add(newMsg);

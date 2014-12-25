@@ -6,11 +6,11 @@
     <ImageView
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="@drawable/avator"/>
+            android:src="@drawable/theavator"/>
 
     <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="5 0dp"
+            android:layout_height="50dp"
             android:orientation="vertical"
             android:layout_weight="1">
     <LinearLayout
