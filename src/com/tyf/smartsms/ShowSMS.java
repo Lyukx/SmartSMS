@@ -31,9 +31,9 @@ import android.widget.Toast;
  */
 public class ShowSMS extends Activity {
 
-    private List<String> smsList = new ArrayList<String>();
     private List<Message> msgList = new ArrayList<Message>();
     private ArrayList<String> number = new ArrayList<String>();
+    private ArrayList<String> address = new ArrayList<String>();
     private String name;
     private Button send = null;
     private EditText msg = null;
@@ -50,7 +50,6 @@ public class ShowSMS extends Activity {
         setContentView(R.layout.show_sms);
         Intent intent = getIntent();
         name = intent.getStringExtra("personName");
-        //ArrayList<String> number = intent.getStringArrayListExtra("personNumber");
         readNumbers(name);
         getSMS(name, number);
 
@@ -94,12 +93,16 @@ public class ShowSMS extends Activity {
         sendStatusReceiver = new SendStatusReceiver();
         registerReceiver(sendStatusReceiver, sendFilter);
 
-        final String[] numbers = new String[number.size()];
-        for(int i = 0; i < number.size(); i++){
-            numbers[i] = number.get(i);
+        final String[] numbers;
+        if(address.size() == 0){
+            numbers = new String[] { name };
         }
-        //Listed method will cause a crash. I can't understand why.
-        //final String[] numbers = (String[]) number.toArray();
+        else {
+            numbers = new String[address.size()];
+            for (int i = 0; i < address.size(); i++) {
+                numbers[i] = address.get(i);
+            }
+        }
 
         send = (Button) findViewById(R.id.send);
         msg = (EditText) findViewById(R.id.msg);
@@ -147,13 +150,11 @@ public class ShowSMS extends Activity {
             selectionArgs[i] = number.get(i);
         }
         Cursor cursor = getContentResolver().query(uri, projection, selection, selectionArgs, "date asc");
-        //Cursor cursor = getContentResolver().query(uri, projection, null, null, "date desc");
 
         if(cursor.moveToFirst()){
             int indexBody = cursor.getColumnIndex("body");
             int indexDate = cursor.getColumnIndex("date");
             int indexType = cursor.getColumnIndex("type");
-            int indexStatus = cursor.getColumnIndex("status");
             int indexId = cursor.getColumnIndex("_id");
 
             do{
@@ -165,15 +166,13 @@ public class ShowSMS extends Activity {
                 String strDate = dateFormat.format(d);
 
                 int type = cursor.getInt(indexType);
-                int status = cursor.getInt(indexStatus);
 
                 int _id = cursor.getInt(indexId);
 
-
                 Message newMsg = new Message( (type==1), strBody);
                 newMsg.setId(_id);
+                newMsg.setTime(strDate);
                 msgList.add(newMsg);
-                //Log.d("SMS", newStr);
             }while(cursor.moveToNext());
         }
 
@@ -187,11 +186,11 @@ public class ShowSMS extends Activity {
             number.add(personName);
             number.add("+86" + personName);
             while (cursor.moveToNext()) {
-                //String name = cursor.getString(cursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME));
                 String currentNumber = cursor.getString(cursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER));
 
                 number.add(currentNumber);
                 number.add("+86" + currentNumber);
+                address.add(currentNumber);
             }
         }catch (Exception e){
             e.printStackTrace();

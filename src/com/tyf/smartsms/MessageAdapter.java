@@ -32,6 +32,8 @@ public class MessageAdapter extends ArrayAdapter<Message> {
             viewHolder.rightLayout = (LinearLayout) view.findViewById(R.id.right);
             viewHolder.leftMsg = (TextView) view.findViewById(R.id.left_msg);
             viewHolder.rightMsg = (TextView) view.findViewById(R.id.right_msg);
+            viewHolder.leftTime = (TextView) view.findViewById(R.id.left_time);
+            viewHolder.rightTime = (TextView) view.findViewById(R.id.right_time);
 
             view.setTag(viewHolder);
         }
@@ -44,11 +46,17 @@ public class MessageAdapter extends ArrayAdapter<Message> {
             viewHolder.leftLayout.setVisibility(View.VISIBLE);
             viewHolder.rightLayout.setVisibility(View.GONE);
             viewHolder.leftMsg.setText(msg.getContent());
+            viewHolder.leftTime.setText(msg.getTime());
+            viewHolder.rightTime.setVisibility(View.GONE);
+            viewHolder.leftTime.setVisibility(View.VISIBLE);
         }
         else{
             viewHolder.rightLayout.setVisibility(View.VISIBLE);
             viewHolder.leftLayout.setVisibility(View.GONE);
             viewHolder.rightMsg.setText(msg.getContent());
+            viewHolder.rightTime.setText(msg.getTime());
+            viewHolder.rightTime.setVisibility(View.VISIBLE);
+            viewHolder.leftTime.setVisibility(View.GONE);
         }
 
         return view;
@@ -59,5 +67,7 @@ public class MessageAdapter extends ArrayAdapter<Message> {
         LinearLayout rightLayout;
         TextView leftMsg;
         TextView rightMsg;
+        TextView leftTime;
+        TextView rightTime;
     }
 }

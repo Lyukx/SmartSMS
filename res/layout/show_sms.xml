@@ -12,11 +12,12 @@
             android:layout_width="match_parent"
             android:layout_height="450dp"
             android:divider="#0000"
+            android:background="#eee"
             android:id="@+id/listView" android:layout_gravity="center_horizontal" android:layout_alignParentLeft="true"
             android:layout_marginLeft="0dp"
             android:layout_below="@id/titleBar"
             android:stackFromBottom="true"
-            
+
             android:layout_marginTop="0dp"/>
     <LinearLayout
             android:orientation="horizontal"

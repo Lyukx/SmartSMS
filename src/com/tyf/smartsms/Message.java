@@ -4,6 +4,7 @@ public class Message {
 	public boolean isLeft;
     private String content;
     private int _id;
+    private String time;
 
     public Message(boolean isLeft, String content){
         this.isLeft = isLeft;
@@ -12,6 +13,10 @@ public class Message {
 
     public void setId(int _id){
         this._id = _id;
+    }
+
+    public void setTime(String time){
+        this.time = time;
     }
 
     public String getContent(){
@@ -24,5 +29,9 @@ public class Message {
 
     public int getId(){
         return _id;
+    }
+
+    public String getTime(){
+        return time;
     }
 }
