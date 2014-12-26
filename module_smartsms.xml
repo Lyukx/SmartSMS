@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_smartsms" default="compile.module.smartsms">
+  <dirname property="module.smartsms.basedir" file="${ant.file.module_smartsms}"/>
+  
+  <property name="module.jdk.home.smartsms" value="${jdk.home.android_api_18_platform}"/>
+  <property name="module.jdk.bin.smartsms" value="${jdk.bin.android_api_18_platform}"/>
+  <property name="module.jdk.classpath.smartsms" value="jdk.classpath.android_api_18_platform"/>
+  
+  <property name="compiler.args.smartsms" value="-encoding UTF-8 -source 1.6 ${compiler.args}"/>
+  
+  <property name="smartsms.output.dir" value="${module.smartsms.basedir}/bin/classes"/>
+  <property name="smartsms.testoutput.dir" value="${module.smartsms.basedir}/bin/classes"/>
+  
+  <path id="smartsms.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="smartsms.module.production.classpath">
+    <path refid="${module.jdk.classpath.smartsms}"/>
+  </path>
+  
+  <path id="smartsms.runtime.production.module.classpath">
+    <pathelement location="${smartsms.output.dir}"/>
+  </path>
+  
+  <path id="smartsms.module.classpath">
+    <path refid="${module.jdk.classpath.smartsms}"/>
+    <pathelement location="${smartsms.output.dir}"/>
+  </path>
+  
+  <path id="smartsms.runtime.module.classpath">
+    <pathelement location="${smartsms.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.smartsms">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.smartsms">
+    <patternset refid="excluded.from.module.smartsms"/>
+  </patternset>
+  
+  <path id="smartsms.module.sourcepath">
+    <dirset dir="${module.smartsms.basedir}">
+      <include name="src"/>
+      <include name="gen"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.smartsms" depends="compile.module.smartsms.production,compile.module.smartsms.tests" description="Compile module SmartSMS"/>
+  
+  <target name="compile.module.smartsms.production" depends="register.custom.compilers" description="Compile module SmartSMS; production classes">
+    <mkdir dir="${smartsms.output.dir}"/>
+    <javac2 destdir="${smartsms.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.smartsms}/javac">
+      <compilerarg line="${compiler.args.smartsms}"/>
+      <bootclasspath refid="smartsms.module.bootclasspath"/>
+      <classpath refid="smartsms.module.production.classpath"/>
+      <src refid="smartsms.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.smartsms"/>
+    </javac2>
+    
+    <copy todir="${smartsms.output.dir}">
+      <fileset dir="${module.smartsms.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.smartsms.basedir}/gen">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.smartsms.tests" depends="register.custom.compilers,compile.module.smartsms.production" description="compile module SmartSMS; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.smartsms" description="cleanup module">
+    <delete dir="${smartsms.output.dir}"/>
+    <delete dir="${smartsms.testoutput.dir}"/>
+  </target>
+</project>

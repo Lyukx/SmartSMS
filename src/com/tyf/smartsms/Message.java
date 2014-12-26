@@ -1,5 +1,6 @@
 package com.tyf.smartsms;
 
+//The class to store one message
 public class Message {
 	public boolean isLeft;
     private String content;

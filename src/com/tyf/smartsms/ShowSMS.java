@@ -8,11 +8,7 @@ import java.util.List;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.PendingIntent;
-import android.content.BroadcastReceiver;
-import android.content.Context;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.content.IntentFilter;
+import android.content.*;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
@@ -48,15 +44,18 @@ public class ShowSMS extends Activity {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.show_sms);
+        //Get the number and person name from the former activity.
         Intent intent = getIntent();
         name = intent.getStringExtra("personName");
         readNumbers(name);
+        //Load the messages with the contact in the sms database.
         getSMS(name, number);
 
-        //ArrayAdapter<String> adapter = new ArrayAdapter<String>(ShowSMS.this, android.R.layout.simple_list_item_1, smsList);
         final MessageAdapter adapter = new MessageAdapter(ShowSMS.this, R.layout.message_item, msgList);
         listView = (ListView) findViewById(R.id.listView);
         listView.setAdapter(adapter);
+
+        //
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
@@ -74,6 +73,9 @@ public class ShowSMS extends Activity {
                                 deleteMsg(thisMessage);
                                 break;
                             case 1:
+                                //Copy the message text to the clipboard
+                                ClipboardManager cbm = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
+                                cbm.setText(thisMessage.getContent().toString());
                                 Toast.makeText(ShowSMS.this, "The message has been copied to the clipboard", Toast.LENGTH_LONG).show();
                                 break;
                             default:
@@ -111,6 +113,7 @@ public class ShowSMS extends Activity {
             public void onClick(View view) {
                 AlertDialog.Builder dialog = new AlertDialog.Builder(ShowSMS.this);
                 dialog.setTitle("Select the number send to");
+                //dialog.setMessage("ss");
                 dialog.setCancelable(true);
                 dialog.setItems(numbers, new DialogInterface.OnClickListener() {
                     @Override
@@ -204,7 +207,6 @@ public class ShowSMS extends Activity {
         public void onReceive(Context context, Intent intent){
             if(getResultCode() == RESULT_OK){
                 Toast.makeText(context, "Send succeeded", Toast.LENGTH_LONG).show();
-                refreshList();
             }
             else{
                 Toast.makeText(context, "Send failed", Toast.LENGTH_LONG).show();

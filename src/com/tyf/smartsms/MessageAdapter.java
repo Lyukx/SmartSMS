@@ -11,6 +11,12 @@ import java.util.List;
 /**
  * Created by Lkx on 2014/12/24.
  */
+/************************************
+ *   Because we ues one xml store   *
+ * left and right message, we need  *
+ * to hide the other when showing   *
+ * one message.                     *
+ * **********************************/
 public class MessageAdapter extends ArrayAdapter<Message> {
 
     private int resourceId;

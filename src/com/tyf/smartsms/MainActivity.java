@@ -32,21 +32,30 @@ public class MainActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //Hide the default title bar
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
 
+        //Load the contacts' information into the HashMap addressToPerson
         readContacts();
+        //Ergodic the sms database and generate a sms List
         getSms();
+
+        //Handle with the listView to show all conversations in the sms db.
         ContectViewAdapter adapter = new ContectViewAdapter(
         		MainActivity.this, R.layout.contect_view, smsList);
         listView = (ListView) findViewById(R.id.listView);
         listView.setAdapter(adapter);
+        //Click one conversation to show all messages in the conversation.
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
                 ContectView contectView = smsList.get(position);
                 String personName = contectView.getName();
                 ArrayList<String> personNumber = new ArrayList<String>();
+
+                //Ergodic the list and then find all number addresses of the contact.
+                //Used to merge all conversations with the same contact into one conversation.
                 Iterator<String> iterator = addressToPerson.keySet().iterator();
                 while(iterator.hasNext()){
                     String number = iterator.next();
@@ -70,21 +79,26 @@ public class MainActivity extends Activity {
     }
 
     public void refreshList(){
-        getSms();//Reload the sms dataBase
+        //Reload the sms database.
+        getSms();
+        //Reset the adapter.
         ContectViewAdapter adapter = new ContectViewAdapter(
         		MainActivity.this, R.layout.contect_view, smsList);
         listView.setAdapter(adapter);
     }
 
     public void getSms(){
+        //Cleat the list to be refreshed.
         smsList.clear();
         final String SMS_URI_ALL = "content://sms/";
 
+        //Query the sms database.
         Uri uri = Uri.parse(SMS_URI_ALL);
         HashMap<String, String> Contects = new HashMap<String, String>();
         String[] projection = new String[] { "_id", "address", "person", "body", "date", "read" };
         Cursor cursor = getContentResolver().query(uri, projection, null, null, "date desc");
 
+        //Ergodic the result of the query
         if(cursor.moveToFirst()){
             int indexAddress = cursor.getColumnIndex("address");
             int indexBody = cursor.getColumnIndex("body");
@@ -114,17 +128,19 @@ public class MainActivity extends Activity {
 
                     int read = cursor.getInt(indexRead);
 
+                    //Get all necessary info and pack them with a ContectView class, then add to the sms list.
                     smsList.add(new ContectView(strPerson, strDate, strBody, read));
                 }
             }while(cursor.moveToNext());
         }
-
+        //Finish ergodic, close the cursor
         cursor.close();
     }
 
     private void readContacts(){
         Cursor cursor = null;
         try{
+            //Query the contacts database.
             cursor = getContentResolver().query(ContactsContract.CommonDataKinds.Phone.CONTENT_URI, null, null, null, null);
             while(cursor.moveToNext()){
                 String name = cursor.getString(cursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME));
@@ -132,12 +148,13 @@ public class MainActivity extends Activity {
                 if(number.charAt(0) == '+'){
                     number = number.substring(3);
                 }
+                //Add to the HashMap storing number and its contact.
                 addressToPerson.put(number, name);
             }
         }catch (Exception e){
             e.printStackTrace();
         }finally {
-            if(cursor != null)
+            if(cursor != null)//Finish ergodic, close the cursor.
                 cursor.close();
         }
     }

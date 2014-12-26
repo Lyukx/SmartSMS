@@ -17,7 +17,82 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.tyf.smartsms" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed7607b2-d547-48b6-bc7b-614f774b97f8" name="Default" comment="" />
+    <list default="true" id="ed7607b2-d547-48b6-bc7b-614f774b97f8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="DELETED" beforePath="C:\Users\Lkx\SmartSMS\res\layout\edit_contacts_list.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Lkx\SmartSMS\src\com\tyf\smartsms\EditContacts.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/BuildConfig.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/ContactsAdapter$ContactsViewHolder.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/ContactsAdapter$ContactsViewHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/ContactsAdapter.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/ContactsAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/ContectView.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/ContectView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/ContectViewAdapter.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/ContectViewAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/EditActivity$1$1.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/EditActivity$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/EditActivity$1.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/EditActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/EditActivity.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/EditActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/EditAdapter$EditViewHolder.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/EditAdapter$EditViewHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/EditAdapter.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/EditAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/ExportSMSDB.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/ExportSMSDB.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/ImportSMS.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/ImportSMS.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/MainActivity$1.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/MainActivity$MessageReceiver.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/MainActivity$MessageReceiver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/MainActivity.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/Message.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/Message.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/MessageAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/MessageAdapter$ViewHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/MessageAdapter.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/MessageAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/MyContacts.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/MyContacts.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/MyDatabaseHelper.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/MyDatabaseHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/NewSMS$1.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/NewSMS$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/NewSMS$2.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/NewSMS$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/NewSMS.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/NewSMS.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/R$id.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/R$layout.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/R$menu.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/R$string.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/R$style.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/R.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/SMSContacts$1.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/SMSContacts$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/SMSContacts$2.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/SMSContacts$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/SMSContacts.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/SMSContacts.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/SMSField.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/SMSField.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/SMSItem.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/SMSItem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/SerializableMap.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/SerializableMap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/ShowSMS$1$1.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/ShowSMS$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/ShowSMS$1.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/ShowSMS$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/ShowSMS$2$1.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/ShowSMS$2$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/ShowSMS$2.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/ShowSMS$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/ShowSMS$SendStatusReceiver.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/ShowSMS$SendStatusReceiver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/ShowSMS.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/ShowSMS.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/SmartSMS.apk" afterPath="$PROJECT_DIR$/bin/classes/SmartSMS.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/TitleLayout$1.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/TitleLayout$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/TitleLayout$2.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/TitleLayout$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/TitleLayout$3$1.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/TitleLayout$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/TitleLayout$3.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/TitleLayout$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/TitleLayout$4.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/TitleLayout$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/TitleLayout$5.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/TitleLayout$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/TitleLayout$6.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/TitleLayout$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/TitleLayout$7.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/TitleLayout$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/TitleLayout.class" afterPath="$PROJECT_DIR$/bin/classes/com/tyf/smartsms/TitleLayout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/tyf/smartsms/BuildConfig.java" afterPath="$PROJECT_DIR$/gen/com/tyf/smartsms/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tyf/smartsms/ContactsAdapter.java" afterPath="$PROJECT_DIR$/src/com/tyf/smartsms/ContactsAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tyf/smartsms/EditActivity.java" afterPath="$PROJECT_DIR$/src/com/tyf/smartsms/EditActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tyf/smartsms/EditAdapter.java" afterPath="$PROJECT_DIR$/src/com/tyf/smartsms/EditAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tyf/smartsms/ExportSMSDB.java" afterPath="$PROJECT_DIR$/src/com/tyf/smartsms/ExportSMSDB.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tyf/smartsms/ImportSMS.java" afterPath="$PROJECT_DIR$/src/com/tyf/smartsms/ImportSMS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tyf/smartsms/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/tyf/smartsms/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tyf/smartsms/Message.java" afterPath="$PROJECT_DIR$/src/com/tyf/smartsms/Message.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tyf/smartsms/MessageAdapter.java" afterPath="$PROJECT_DIR$/src/com/tyf/smartsms/MessageAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tyf/smartsms/MyContacts.java" afterPath="$PROJECT_DIR$/src/com/tyf/smartsms/MyContacts.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tyf/smartsms/MyDatabaseHelper.java" afterPath="$PROJECT_DIR$/src/com/tyf/smartsms/MyDatabaseHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tyf/smartsms/NewSMS.java" afterPath="$PROJECT_DIR$/src/com/tyf/smartsms/NewSMS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tyf/smartsms/SMSContacts.java" afterPath="$PROJECT_DIR$/src/com/tyf/smartsms/SMSContacts.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tyf/smartsms/SMSField.java" afterPath="$PROJECT_DIR$/src/com/tyf/smartsms/SMSField.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tyf/smartsms/SMSItem.java" afterPath="$PROJECT_DIR$/src/com/tyf/smartsms/SMSItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tyf/smartsms/SerializableMap.java" afterPath="$PROJECT_DIR$/src/com/tyf/smartsms/SerializableMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tyf/smartsms/ShowSMS.java" afterPath="$PROJECT_DIR$/src/com/tyf/smartsms/ShowSMS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tyf/smartsms/TitleLayout.java" afterPath="$PROJECT_DIR$/src/com/tyf/smartsms/TitleLayout.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/jarlist.cache" afterPath="$PROJECT_DIR$/bin/jarlist.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="SmartSMS.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/bin/classes/" />
@@ -44,12 +119,9 @@
       <file leaf-file-name="ShowSMS.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/ShowSMS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.76645434" vertical-offset="3071" max-vertical-offset="3828">
-              <caret line="214" column="27" selection-start-line="214" selection-start-column="27" selection-end-line="214" selection-end-column="27" />
-              <folding>
-                <element signature="method#onDestroy#0;class#ShowSMS#0" expanded="false" />
-                <element signature="method#readNumbers#0;class#ShowSMS#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="1.2372013" vertical-offset="2942" max-vertical-offset="3838">
+              <caret line="225" column="92" selection-start-line="225" selection-start-column="92" selection-end-line="225" selection-end-column="92" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -57,11 +129,11 @@
     </leaf>
   </component>
   <component name="GenerateSignedApkSettings">
-    <option name="KEY_STORE_PATH" value="C:\Users\Kaixie\sms.keystore.jks" />
-    <option name="KEY_ALIAS" value="lkx" />
+    <option name="KEY_STORE_PATH" value="C:\Users\Lkx\smartSMS.keystore" />
+    <option name="KEY_ALIAS" value="smartsms" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
   </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -69,20 +141,29 @@
       <list>
         <option value="$PROJECT_DIR$/res/layout/my_contacts_list.xml" />
         <option value="$PROJECT_DIR$/res/layout/edit_contacts_list.xml" />
-        <option value="$PROJECT_DIR$/src/com/tyf/smartsms/TitleLayout.java" />
         <option value="$PROJECT_DIR$/res/layout/activity_edit.xml" />
         <option value="$PROJECT_DIR$/res/layout/new_sms.xml" />
         <option value="$PROJECT_DIR$/res/layout/smscontacts.xml" />
-        <option value="$PROJECT_DIR$/src/com/tyf/smartsms/SMSContacts.java" />
-        <option value="$PROJECT_DIR$/src/com/tyf/smartsms/NewSMS.java" />
         <option value="$PROJECT_DIR$/res/layout/contect_view.xml" />
         <option value="$PROJECT_DIR$/res/layout/title.xml" />
-        <option value="$PROJECT_DIR$/src/com/tyf/smartsms/Message.java" />
-        <option value="$PROJECT_DIR$/src/com/tyf/smartsms/MessageAdapter.java" />
         <option value="$PROJECT_DIR$/res/layout/show_sms.xml" />
         <option value="$PROJECT_DIR$/res/layout/message_item.xml" />
         <option value="$PROJECT_DIR$/src/com/tyf/smartsms/EditActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/tyf/smartsms/EditAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/tyf/smartsms/ContactsAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/tyf/smartsms/ExportSMSDB.java" />
+        <option value="$PROJECT_DIR$/src/com/tyf/smartsms/ImportSMS.java" />
+        <option value="$PROJECT_DIR$/src/com/tyf/smartsms/MyContacts.java" />
+        <option value="$PROJECT_DIR$/src/com/tyf/smartsms/MyDatabaseHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/tyf/smartsms/NewSMS.java" />
+        <option value="$PROJECT_DIR$/src/com/tyf/smartsms/SerializableMap.java" />
+        <option value="$PROJECT_DIR$/src/com/tyf/smartsms/SMSContacts.java" />
+        <option value="$PROJECT_DIR$/src/com/tyf/smartsms/SMSField.java" />
+        <option value="$PROJECT_DIR$/src/com/tyf/smartsms/SMSItem.java" />
+        <option value="$PROJECT_DIR$/src/com/tyf/smartsms/TitleLayout.java" />
         <option value="$PROJECT_DIR$/src/com/tyf/smartsms/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/tyf/smartsms/Message.java" />
+        <option value="$PROJECT_DIR$/src/com/tyf/smartsms/MessageAdapter.java" />
         <option value="$PROJECT_DIR$/src/com/tyf/smartsms/ShowSMS.java" />
       </list>
     </option>
@@ -90,8 +171,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="939" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -116,8 +197,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -215,19 +296,26 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="C:/cmder/Cmder.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="CB5A1YR1R9" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="246" />
     <property name="FullScreen" value="false" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_4_API_18" />
     <property name="ExportedModule" value="SmartSMS" />
-    <property name="ExportedApkPath" value="C:\Users\Kaixie\Desktop\123.apk" />
+    <property name="ExportedApkPath" value="D:\SmartSMS.apk" />
     <property name="AndroidRunProguardForReleaseBuild" value="false" />
+    <property name="AndroidProguardConfigPaths" value="D:\Android\sdk\tools\proguard\proguard-android.txt;C:\Users\Lkx\SmartSMS\proguard-project.txt" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="smartsms" />
   </component>
   <component name="RunManager" selected="Android Application.SmartSMS">
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -427,69 +515,59 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="939" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961586" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3264865" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32713756" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23638968" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283767" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32713756" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24355301" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32713756" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1747212" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32108107" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17405406" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32108107" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24413647" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283767" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23782235" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17596035" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32961586" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.245702" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23667377" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -508,17 +586,7 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/tyf/smartsms/MainActivity.java</url>
-          <line>32</line>
-          <properties class="com.tyf.smartsms.MainActivity" method="onCreate" />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="8" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -526,69 +594,26 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2926" max-vertical-offset="3080">
-          <caret line="152" column="1" selection-start-line="152" selection-start-column="1" selection-end-line="152" selection-end-column="1" />
-          <folding>
-            <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#onResume#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#refreshList#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#readContacts#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#MessageReceiver#0;class#MainActivity#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/ShowSMS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1980" max-vertical-offset="4290">
-          <caret line="125" column="20" selection-start-line="125" selection-start-column="20" selection-end-line="125" selection-end-column="20" />
-          <folding>
-            <element signature="method#onDestroy#0;class#ShowSMS#0" expanded="false" />
-            <element signature="method#readNumbers#0;class#ShowSMS#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/EditActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2310">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4066">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2926" max-vertical-offset="3080">
-          <caret line="152" column="1" selection-start-line="152" selection-start-column="1" selection-end-line="152" selection-end-column="1" />
-          <folding>
-            <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#onResume#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#refreshList#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#readContacts#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#MessageReceiver#0;class#MainActivity#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/ShowSMS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2222" max-vertical-offset="4554">
-          <caret line="125" column="20" selection-start-line="125" selection-start-column="20" selection-end-line="125" selection-end-column="20" />
-          <folding>
-            <element signature="method#onDestroy#0;class#ShowSMS#0" expanded="false" />
-            <element signature="method#readNumbers#0;class#ShowSMS#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4066">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/EditActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2354">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2128">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -596,55 +621,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2242" max-vertical-offset="3971">
           <caret line="142" column="41" selection-start-line="142" selection-start-column="41" selection-end-line="142" selection-end-column="41" />
-          <folding>
-            <element signature="method#onDestroy#0;class#ShowSMS#0" expanded="false" />
-            <element signature="method#readNumbers#0;class#ShowSMS#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/show_sms.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="836">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/message_item.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/message_item.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="266" max-vertical-offset="798">
           <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/contect_view.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/contect_view.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="741">
           <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/message_item.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/message_item.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1518">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/SMSContacts.java">
@@ -658,10 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="5016">
           <caret line="48" column="54" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
-          <folding>
-            <element signature="method#onDestroy#0;class#ShowSMS#0" expanded="false" />
-            <element signature="method#readNumbers#0;class#ShowSMS#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -680,233 +697,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/title.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1078">
           <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="3014">
           <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_edit.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42888403" vertical-offset="2" max-vertical-offset="484">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/edit_contacts_list.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25382933" vertical-offset="192" max-vertical-offset="1012">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/my_contacts_list.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24070022" vertical-offset="0" max-vertical-offset="1210">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.142857" vertical-offset="0" max-vertical-offset="462">
-          <caret line="8" column="46" selection-start-line="6" selection-start-column="4" selection-end-line="8" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/new_sms.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9642857" vertical-offset="286" max-vertical-offset="1474">
-          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/smscontacts.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6630197" vertical-offset="27" max-vertical-offset="616">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/SMSField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08576998" vertical-offset="0" max-vertical-offset="513">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/ImportSMS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.088" vertical-offset="0" max-vertical-offset="1606">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/ExportSMSDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.176" vertical-offset="0" max-vertical-offset="1738">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="411" max-vertical-offset="1100">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/SMSContacts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="2332">
-          <caret line="37" column="54" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/contect_view.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="931">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/title.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.52" vertical-offset="76" max-vertical-offset="931">
-          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/TitleLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1178" max-vertical-offset="2603">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/NewSMS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79041916" vertical-offset="264" max-vertical-offset="2002">
-          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/SerializableMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17120622" vertical-offset="0" max-vertical-offset="514">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25680932" vertical-offset="0" max-vertical-offset="726">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/MyContacts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08560311" vertical-offset="0" max-vertical-offset="814">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/MessageAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72762644" vertical-offset="0" max-vertical-offset="1606">
-          <caret line="23" column="72" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/ContactsAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.72762644" vertical-offset="462" max-vertical-offset="1188">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/ContectViewAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30738524" vertical-offset="0" max-vertical-offset="880">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/ContectView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25680932" vertical-offset="0" max-vertical-offset="638">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/SMSItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08560311" vertical-offset="0" max-vertical-offset="990">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/EditContacts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6420233" vertical-offset="0" max-vertical-offset="594">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/message_item.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.2" vertical-offset="1342" max-vertical-offset="1870">
-          <caret line="76" column="37" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -926,47 +730,242 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_edit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42888403" vertical-offset="2" max-vertical-offset="484">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/my_contacts_list.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24070022" vertical-offset="0" max-vertical-offset="1210">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.142857" vertical-offset="0" max-vertical-offset="462">
+          <caret line="8" column="46" selection-start-line="6" selection-start-column="4" selection-end-line="8" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/new_sms.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9642857" vertical-offset="286" max-vertical-offset="1474">
+          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/smscontacts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6630197" vertical-offset="27" max-vertical-offset="616">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/contect_view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="931">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/title.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.52" vertical-offset="76" max-vertical-offset="931">
+          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/show_sms.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42537314" vertical-offset="114" max-vertical-offset="855">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/message_item.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.08" vertical-offset="757" max-vertical-offset="1615">
+          <caret line="61" column="39" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/EditAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5523978" vertical-offset="0" max-vertical-offset="988">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/EditActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.1568627" vertical-offset="330" max-vertical-offset="2222">
-          <caret line="114" column="25" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="2128">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/ImportSMS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9325044" vertical-offset="786" max-vertical-offset="1425">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/ExportSMSDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9325044" vertical-offset="862" max-vertical-offset="1501">
+          <caret line="80" column="1" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/change/MyContacts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="741">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/MyContacts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9325044" vertical-offset="292" max-vertical-offset="931">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/MyDatabaseHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9325044" vertical-offset="235" max-vertical-offset="874">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/ContactsAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9325044" vertical-offset="330" max-vertical-offset="969">
+          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/NewSMS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9325044" vertical-offset="843" max-vertical-offset="1482">
+          <caret line="83" column="1" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/SerializableMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40497336" vertical-offset="0" max-vertical-offset="563">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/SMSContacts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9325044" vertical-offset="1204" max-vertical-offset="1843">
+          <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/SMSField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37122557" vertical-offset="0" max-vertical-offset="563">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/SMSItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9325044" vertical-offset="216" max-vertical-offset="855">
+          <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/TitleLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69627" vertical-offset="2306" max-vertical-offset="2945">
+          <caret line="155" column="23" selection-start-line="155" selection-start-column="23" selection-end-line="155" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4024605" vertical-offset="0" max-vertical-offset="950">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6487026" vertical-offset="1193" max-vertical-offset="1694">
-          <caret line="145" column="51" selection-start-line="145" selection-start-column="4" selection-end-line="145" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="427" max-vertical-offset="2926">
+          <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3806344" vertical-offset="0" max-vertical-offset="646">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
-            <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#onResume#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#refreshList#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#readContacts#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#MessageReceiver#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/show_sms.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/MessageAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74157304" vertical-offset="66" max-vertical-offset="990">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.8564274" vertical-offset="0" max-vertical-offset="1501">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tyf/smartsms/ShowSMS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76645434" vertical-offset="3071" max-vertical-offset="3828">
-          <caret line="214" column="27" selection-start-line="214" selection-start-column="27" selection-end-line="214" selection-end-column="27" />
-          <folding>
-            <element signature="method#onDestroy#0;class#ShowSMS#0" expanded="false" />
-            <element signature="method#readNumbers#0;class#ShowSMS#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="1.2372013" vertical-offset="2942" max-vertical-offset="3838">
+          <caret line="225" column="92" selection-start-line="225" selection-start-column="92" selection-end-line="225" selection-end-column="92" />
+          <folding />
         </state>
       </provider>
     </entry>
