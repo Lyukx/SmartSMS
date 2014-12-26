@@ -70,7 +70,7 @@ public class MainActivity extends Activity {
     }
 
     public void refreshList(){
-        getSms();
+        getSms();//Reload the sms dataBase
         ContectViewAdapter adapter = new ContectViewAdapter(
         		MainActivity.this, R.layout.contect_view, smsList);
         listView.setAdapter(adapter);

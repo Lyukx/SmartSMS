@@ -204,6 +204,7 @@ public class ShowSMS extends Activity {
         public void onReceive(Context context, Intent intent){
             if(getResultCode() == RESULT_OK){
                 Toast.makeText(context, "Send succeeded", Toast.LENGTH_LONG).show();
+                refreshList();
             }
             else{
                 Toast.makeText(context, "Send failed", Toast.LENGTH_LONG).show();
